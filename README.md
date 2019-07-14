@@ -16,7 +16,7 @@ cd ~/.acme.sh/
 
 - 生成域名需要验证的TXT记录
 ```bash
-./acme.sh --issue -d yinhehongbao.com --yes-I-know-dns-manual-mode-enough-go-ahead-please
+./acme.sh --issue -d yinhehongbao.com --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
 - 去配置域名的TXT记录
