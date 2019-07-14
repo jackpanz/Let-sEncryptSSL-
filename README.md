@@ -11,4 +11,4 @@ bash acme_2.0.sh
 - 在域名解析中添加TXT记录(绿色字)
 - 配置后在按回车
 
-SSL证生成至/home/yourdomain或/home/yourdomain_ecc路径下。
+# SSL证生成至/home/yourdomain或/home/yourdomain_ecc路径下。
