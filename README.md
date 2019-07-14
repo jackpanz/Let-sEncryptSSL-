@@ -6,9 +6,9 @@ bash acme_2.0.sh
 ```
 ![image](https://github.com/jackpanz/Let-sEncryptSSL-/blob/master/test.png)
 
-1.输入域名
-2.选择rsa方式
-3.在域名解析中添加TXT记录(绿色字)
-4.配置后在按回车
+ - 输入域名
+ - 选择rsa方式
+ - 在域名解析中添加TXT记录(绿色字)
+ - 配置后在按回车
 
 SSL证生成至/home/yourdomain或/home/yourdomain_ecc路径下。
