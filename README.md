@@ -1,1 +1,5 @@
-# Let-sEncryptSSL-
+# 一键安装 Let'sEncryptSSL证书自动签发脚本
+
+wget https://raw.githubusercontent.com/nanqinlang-script/acme/master/acme_2.0.sh
+
+bash acme_2.0.sh
