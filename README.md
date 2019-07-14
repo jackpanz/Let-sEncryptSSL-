@@ -1,14 +1,27 @@
-# 一键安装 Let'sEncryptSSL证书自动签发脚本
+# Let'sEncryptSSL证书自动签发脚本
 
-```java
-wget https://raw.githubusercontent.com/nanqinlang-script/acme/master/acme_2.0.sh
-bash acme_2.0.sh
+- 安装acme
+```bash
+curl https://get.acme.sh | sh
 ```
-![image](https://github.com/jackpanz/Let-sEncryptSSL-/blob/master/test1.png)
+Or:
+```bash
+wget -O -  https://get.acme.sh | sh
+```
 
-- 输入域名
-- 选择rsa方式
-- 在域名解析中添加TXT记录(绿色字)
-- 配置后在按回车
+- 打开安装目录
+```bash
+cd ~/.acme.sh/
+```
 
-- SSL证生成至/home/yourdomain或/home/yourdomain_ecc路径下。
+- 生成域名需要验证的TXT记录
+```bash
+./acme.sh --issue -d yinhehongbao.com --yes-I-know-dns-manual-mode-enough-go-ahead-please
+```
+
+- 去配置域名的TXT记录
+
+- 验证TXT记录成功后会提示生成路径
+```bash
+./acme.sh --issue -d yinhehongbao.com --yes-I-know-dns-manual-mode-enough-go-ahead-please
+```
