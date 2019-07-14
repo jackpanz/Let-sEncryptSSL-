@@ -19,7 +19,7 @@ cd ~/.acme.sh/
 ./acme.sh --issue -d yinhehongbao.com --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
-- 去配置域名的TXT记录
+- 配置域名的TXT记录
 
 - 验证TXT记录成功后会提示生成路径
 ```bash
