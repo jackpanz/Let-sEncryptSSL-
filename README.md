@@ -21,7 +21,7 @@ cd ~/.acme.sh/
 
 - 配置域名的TXT记录
 
-- 验证TXT记录成功后会提示生成路径
+- 触发验证TXT记录,验证城后生成SSL证书。
 ```bash
 ./acme.sh --issue -d yinhehongbao.com --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
